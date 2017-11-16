@@ -1,38 +1,38 @@
 [
     {
-        "merged": "C:\\Users\\Thanh Long\\Desktop\\Gamebaucua\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
-        "source": "C:\\Users\\Thanh Long\\.android\\build-cache\\cc2c7daebae7f75f67a44124b9190589292e2a7d\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\Thanh Long\\Desktop\\Gamebaucua\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
+        "merged": "E:\\De Tai Android\\Game_Bau_Cua\\Gamebaucua\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
         "source": "C:\\Users\\Thanh Long\\.android\\build-cache\\cc2c7daebae7f75f67a44124b9190589292e2a7d\\output\\res\\color\\abc_secondary_text_material_dark.xml"
     },
     {
-        "merged": "C:\\Users\\Thanh Long\\Desktop\\Gamebaucua\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
-        "source": "C:\\Users\\Thanh Long\\.android\\build-cache\\cc2c7daebae7f75f67a44124b9190589292e2a7d\\output\\res\\color\\abc_search_url_text.xml"
-    },
-    {
-        "merged": "C:\\Users\\Thanh Long\\Desktop\\Gamebaucua\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
-        "source": "C:\\Users\\Thanh Long\\.android\\build-cache\\cc2c7daebae7f75f67a44124b9190589292e2a7d\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\Thanh Long\\Desktop\\Gamebaucua\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
-        "source": "C:\\Users\\Thanh Long\\.android\\build-cache\\cc2c7daebae7f75f67a44124b9190589292e2a7d\\output\\res\\color\\abc_primary_text_material_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\Thanh Long\\Desktop\\Gamebaucua\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
-        "source": "C:\\Users\\Thanh Long\\.android\\build-cache\\cc2c7daebae7f75f67a44124b9190589292e2a7d\\output\\res\\color\\abc_secondary_text_material_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\Thanh Long\\Desktop\\Gamebaucua\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_background_cache_hint_selector_material_dark.xml",
-        "source": "C:\\Users\\Thanh Long\\.android\\build-cache\\cc2c7daebae7f75f67a44124b9190589292e2a7d\\output\\res\\color\\abc_background_cache_hint_selector_material_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\Thanh Long\\Desktop\\Gamebaucua\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
+        "merged": "E:\\De Tai Android\\Game_Bau_Cua\\Gamebaucua\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
         "source": "C:\\Users\\Thanh Long\\.android\\build-cache\\cc2c7daebae7f75f67a44124b9190589292e2a7d\\output\\res\\color\\abc_primary_text_material_light.xml"
     },
     {
-        "merged": "C:\\Users\\Thanh Long\\Desktop\\Gamebaucua\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_background_cache_hint_selector_material_light.xml",
+        "merged": "E:\\De Tai Android\\Game_Bau_Cua\\Gamebaucua\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "C:\\Users\\Thanh Long\\.android\\build-cache\\cc2c7daebae7f75f67a44124b9190589292e2a7d\\output\\res\\color\\abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "E:\\De Tai Android\\Game_Bau_Cua\\Gamebaucua\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
+        "source": "C:\\Users\\Thanh Long\\.android\\build-cache\\cc2c7daebae7f75f67a44124b9190589292e2a7d\\output\\res\\color\\abc_search_url_text.xml"
+    },
+    {
+        "merged": "E:\\De Tai Android\\Game_Bau_Cua\\Gamebaucua\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
+        "source": "C:\\Users\\Thanh Long\\.android\\build-cache\\cc2c7daebae7f75f67a44124b9190589292e2a7d\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "E:\\De Tai Android\\Game_Bau_Cua\\Gamebaucua\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
+        "source": "C:\\Users\\Thanh Long\\.android\\build-cache\\cc2c7daebae7f75f67a44124b9190589292e2a7d\\output\\res\\color\\abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "E:\\De Tai Android\\Game_Bau_Cua\\Gamebaucua\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_background_cache_hint_selector_material_light.xml",
         "source": "C:\\Users\\Thanh Long\\.android\\build-cache\\cc2c7daebae7f75f67a44124b9190589292e2a7d\\output\\res\\color\\abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "E:\\De Tai Android\\Game_Bau_Cua\\Gamebaucua\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
+        "source": "C:\\Users\\Thanh Long\\.android\\build-cache\\cc2c7daebae7f75f67a44124b9190589292e2a7d\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "E:\\De Tai Android\\Game_Bau_Cua\\Gamebaucua\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
+        "source": "C:\\Users\\Thanh Long\\.android\\build-cache\\cc2c7daebae7f75f67a44124b9190589292e2a7d\\output\\res\\color\\abc_primary_text_material_dark.xml"
     }
 ]

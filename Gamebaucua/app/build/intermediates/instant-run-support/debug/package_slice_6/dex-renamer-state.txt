@@ -1,4 +1,4 @@
-#Thu Nov 16 11:08:23 ICT 2017
-base.0=C\:\\Users\\Thanh Long\\Desktop\\Gamebaucua\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_6
+#Thu Nov 16 19:03:33 ICT 2017
+base.0=E\:\\De Tai Android\\Game_Bau_Cua\\Gamebaucua\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_6
 renamed.0=classes.dex
-file.0=C\:\\Users\\Thanh Long\\Desktop\\Gamebaucua\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_6\\classes.dex
+file.0=E\:\\De Tai Android\\Game_Bau_Cua\\Gamebaucua\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_6\\classes.dex

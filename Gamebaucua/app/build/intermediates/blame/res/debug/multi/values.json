@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\Thanh Long\\Desktop\\Gamebaucua\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "outputFile": "E:\\De Tai Android\\Game_Bau_Cua\\Gamebaucua\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -2707,7 +2707,7 @@
                     "endOffset": 29442
                 },
                 "from": {
-                    "file": "C:\\Users\\Thanh Long\\Desktop\\Gamebaucua\\app\\src\\main\\res\\values\\dimens.xml",
+                    "file": "E:\\De Tai Android\\Game_Bau_Cua\\Gamebaucua\\app\\src\\main\\res\\values\\dimens.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -2726,7 +2726,7 @@
                     "endOffset": 29498
                 },
                 "from": {
-                    "file": "C:\\Users\\Thanh Long\\Desktop\\Gamebaucua\\app\\src\\main\\res\\values\\dimens.xml",
+                    "file": "E:\\De Tai Android\\Game_Bau_Cua\\Gamebaucua\\app\\src\\main\\res\\values\\dimens.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -3353,7 +3353,7 @@
                     "endOffset": 31663
                 },
                 "from": {
-                    "file": "C:\\Users\\Thanh Long\\Desktop\\Gamebaucua\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "E:\\De Tai Android\\Game_Bau_Cua\\Gamebaucua\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -3372,7 +3372,7 @@
                     "endOffset": 31711
                 },
                 "from": {
-                    "file": "C:\\Users\\Thanh Long\\Desktop\\Gamebaucua\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "E:\\De Tai Android\\Game_Bau_Cua\\Gamebaucua\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -3391,7 +3391,7 @@
                     "endOffset": 31764
                 },
                 "from": {
-                    "file": "C:\\Users\\Thanh Long\\Desktop\\Gamebaucua\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "E:\\De Tai Android\\Game_Bau_Cua\\Gamebaucua\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -3411,7 +3411,7 @@
                     "endOffset": 32055
                 },
                 "from": {
-                    "file": "C:\\Users\\Thanh Long\\Desktop\\Gamebaucua\\app\\src\\main\\res\\values\\styles.xml",
+                    "file": "E:\\De Tai Android\\Game_Bau_Cua\\Gamebaucua\\app\\src\\main\\res\\values\\styles.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -3432,7 +3432,7 @@
                     "endOffset": 32215
                 },
                 "from": {
-                    "file": "C:\\Users\\Thanh Long\\Desktop\\Gamebaucua\\app\\src\\main\\res\\values\\styles.xml",
+                    "file": "E:\\De Tai Android\\Game_Bau_Cua\\Gamebaucua\\app\\src\\main\\res\\values\\styles.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,

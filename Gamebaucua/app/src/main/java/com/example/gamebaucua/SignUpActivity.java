@@ -1,6 +1,7 @@
 package com.example.gamebaucua;
 
 import android.app.Activity;
+import android.app.ProgressDialog;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.support.v7.internal.widget.AppCompatPopupWindow;
@@ -23,15 +24,9 @@ public class SignUpActivity extends Activity implements View.OnClickListener{
 
     EditText etUsername, etPassword, etRetypePassword;
     Button btnSuccess;
-
-    private Socket mSocket;
-    {
-        try {
-            mSocket = IO.socket("http://192.168.1.6:2000");
-        } catch (URISyntaxException e) {
-            Log.d("error", e.getMessage());
-        }
-    }
+    NotificationDialog notificationDialog;
+    ProgressDialog progressDialog;
+    Socket mSocket = LoginActivity.mSocket;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,6 +39,10 @@ public class SignUpActivity extends Activity implements View.OnClickListener{
         btnSuccess = (Button) findViewById(R.id.btnSuccessSignUp);
 
         btnSuccess.setOnClickListener(this);
+
+        notificationDialog = new NotificationDialog(this);
+        progressDialog = new ProgressDialog(this);
+        progressDialog.setMessage("Đang xử lý");
 
         mSocket.connect(); //Kết nốt socketio
 
@@ -61,20 +60,25 @@ public class SignUpActivity extends Activity implements View.OnClickListener{
                 String password = etPassword.getText().toString().trim();
                 String retypepassword = etRetypePassword.getText().toString().trim();
                 if (username.equals("") || password.equals("") || retypepassword.equals("")) {
-                    Toast.makeText(this, "Vui lòng điền đủ thông tin", Toast.LENGTH_SHORT).show();
+                    notificationDialog.showMessage("Thông báo", "Vui lòng điền đủ thông tin");
                     return;
                 }
                 if (!password.equals(retypepassword)) {
-                    Toast.makeText(this, "Nhập lại mật khẩu không đúng", Toast.LENGTH_SHORT).show();
+                    notificationDialog.showMessage("Thông báo", "Nhập lại mật khẩu không đúng");
                     return;
                 }
                 JSONObject jsonObject = new JSONObject();
                 try {
                     jsonObject.put("username", username);
                     jsonObject.put("password", password);
+                    //Gọi tới server để đăng ký tài khoản
                     mSocket.emit("sign-up", jsonObject);
+                    progressDialog.show();
                 } catch (JSONException e) {
                     e.printStackTrace();
+                    progressDialog.dismiss();
+                    Log.d("error", e.getMessage());
+                    notificationDialog.showMessage("Thông báo", "Không thể đăng ký, vui lòng thử lại sau");
                 }
                 break;
         }
@@ -89,11 +93,14 @@ public class SignUpActivity extends Activity implements View.OnClickListener{
                 public void run() {
                     JSONObject data = (JSONObject) args[0];
                     try {
-                        String error = data.getString("err");
-                        Toast.makeText(SignUpActivity.this, error, Toast.LENGTH_SHORT).show();
+                        progressDialog.dismiss();
+                        String error = data.getString("error");
+                        notificationDialog.showMessage("Thông báo", error);
                     } catch (JSONException e) {
+                        progressDialog.dismiss();
                         e.printStackTrace();
                         Log.d("error", e.getMessage());
+                        notificationDialog.showMessage("Thông báo", "Không thể đăng ký, vui lòng thử lại sau");
                     }
                 }
             });
@@ -109,14 +116,24 @@ public class SignUpActivity extends Activity implements View.OnClickListener{
                 public void run() {
                     JSONObject data = (JSONObject) args[0];
                     try {
-                        String error = data.getString("success");
-                        Toast.makeText(SignUpActivity.this, error, Toast.LENGTH_SHORT).show();
+                        progressDialog.dismiss();
+                        String success = data.getString("success");
+                        notificationDialog.showMessage("Thông báo", success);
+                        clearInfo();
                     } catch (JSONException e) {
+                        progressDialog.dismiss();
                         e.printStackTrace();
                         Log.d("error", e.getMessage());
+                        notificationDialog.showMessage("Thông báo", "Không thể đăng ký, vui lòng thử lại sau");
                     }
                 }
             });
         }
     };
+
+    public void clearInfo() {
+        etUsername.setText("");
+        etPassword.setText("");
+        etRetypePassword.setText("");
+    }
 }
