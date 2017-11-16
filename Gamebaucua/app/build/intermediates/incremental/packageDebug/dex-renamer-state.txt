@@ -1,0 +1,7 @@
+#Thu Nov 16 10:03:48 ICT 2017
+base.0=C\:\\Users\\Thanh Long\\Desktop\\Gamebaucua\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_c62a8556024a732777fc9dd8f3d20b4517d7bb4c
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\Thanh Long\\Desktop\\Gamebaucua\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_430b1e2c0eb162e7857fbf6fae107ebfb4e7dc1b\\classes.dex
+base.1=C\:\\Users\\Thanh Long\\Desktop\\Gamebaucua\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_430b1e2c0eb162e7857fbf6fae107ebfb4e7dc1b
+file.0=C\:\\Users\\Thanh Long\\Desktop\\Gamebaucua\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_c62a8556024a732777fc9dd8f3d20b4517d7bb4c\\classes.dex
